@@ -18,6 +18,25 @@ export interface SkillItem {
 
 export const apps: AppItem[] = [
   {
+    id: "operasional",
+    name: "Dasbor Operasional JPLB",
+    tagline: "Pusat kendali distribusi Bantuan Pangan",
+    description:
+      "Sistem operasional utama pengelolaan Bantuan Pangan — import SPM/BAST dari Excel, dashboard progres per kabupaten, tanda terima biaya keamanan/kebersihan dengan OCR KTP otomatis via Claude Haiku. 🔍 Live Demo tersedia — login dengan akun demo yang disediakan.",
+    url: "https://operasional-live-demo.dedemuhi.info",
+    tech: [
+      "React",
+      "Refine",
+      "Supabase",
+      "Ant Design",
+      "Claude OCR",
+      "Cloudflare R2",
+    ],
+    emoji: "📊",
+    badge: "Core",
+    category: "web",
+  },
+  {
     id: "fms",
     name: "FMS — Fleet Management System",
     tagline: "Real-time truck tracking & trip management",
@@ -27,18 +46,6 @@ export const apps: AppItem[] = [
     tech: ["React", "Refine", "Supabase", "Leaflet", "Ant Design"],
     emoji: "🚛",
     badge: "Live",
-    category: "web",
-  },
-  {
-    id: "operasional",
-    name: "Dasbor Operasional JPLB",
-    tagline: "Pusat kendali distribusi Bantuan Pangan",
-    description:
-      "Sistem operasional utama pengelolaan Bantuan Pangan — import SPM/BAST dari Excel, dashboard progres per kabupaten, tanda terima biaya keamanan/kebersihan dengan OCR KTP otomatis via Claude Haiku.",
-    url: "https://operasional.jasaprimalogistics.id",
-    tech: ["React", "Refine", "Supabase", "Ant Design", "Claude OCR", "Cloudflare R2"],
-    emoji: "📊",
-    badge: "Core",
     category: "web",
   },
   {
@@ -55,7 +62,7 @@ export const apps: AppItem[] = [
   },
   {
     id: "biaya-angkutan",
-    name: "Nakutan — Biaya Angkutan",
+    name: "PT Jasa Prima Logistik BulogBiaya Angkutan",
     tagline: "Kalkulasi otomatis ongkos distribusi beras",
     description:
       "Modul perhitungan biaya angkutan beras lintas Sumatera Barat — tracking SPM, master tarif kendaraan, dan RPC kalkulasi otomatis membandingkan rate kontrak per-kg vs invoice per-trip.",

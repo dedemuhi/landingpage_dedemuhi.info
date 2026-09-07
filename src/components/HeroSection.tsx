@@ -11,7 +11,7 @@ export default function HeroSection() {
           <h1 className="hero-name">Dede Muhidin</h1>
           <p className="hero-role">Full-Stack & Mobile Developer</p>
           <p className="hero-bio">
-            Membangun sistem digital untuk <strong>PT Jasa Prima Logistik Bulog</strong> —
+            Membangun sistem digital untuk <strong> Angkutan Logistics</strong> —
             dari real-time fleet tracking, distribusi Bantuan Pangan, aplikasi pelabuhan,
             hingga automasi tagihan via WhatsApp. Spesialis{" "}
             <strong>React · Flutter · Supabase · n8n</strong>.
