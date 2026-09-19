@@ -44,7 +44,7 @@ export default function HeroSection() {
             {"  "}<span className="t-key">"location"</span>:{" "}
             <span className="t-str">"Padang, West Sumatra 🇮🇩"</span>,{"\n"}
             {"  "}<span className="t-key">"employer"</span>:{" "}
-            <span className="t-str">"PT Jasa Prima Logistik Bulog"</span>,{"\n"}
+            <span className="t-str">"dedemuhi.dev"</span>,{"\n"}
             {"  "}<span className="t-key">"apps_built"</span>:{" "}
             <span className="t-num">5</span>,{"\n"}
             {"  "}<span className="t-key">"stack"</span>: [{"\n"}

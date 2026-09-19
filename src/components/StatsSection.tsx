@@ -1,5 +1,5 @@
 "use client";
-import { stats } from "@/data/apps";
+import { stats } from "@/data/stats";
 export default function StatsSection() {
   return (
     <div className="statsbar">

@@ -1,5 +1,5 @@
 "use client";
-import { skills } from "@/data/apps";
+import { skills } from "@/data/skills";
 export default function SkillsSection() {
   return (
     <section className="section section-alt" id="skills">
